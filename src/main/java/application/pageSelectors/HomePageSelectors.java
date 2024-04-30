@@ -13,7 +13,7 @@ public class HomePageSelectors {
 
     public static String myRewardPointsLabel ="//span[text()='My reward points']";
     public static String userRewardPoints =  "//span[text()='My reward points']/following-sibling::span";
-    public static String merchandiseRedeemedLabel =  "//span[text()='//span[text()='Merchandise redeemed till date']";
+    public static String merchandiseRedeemedLabel =  "//span[text()='Merchandise redeemed till date']";
     public static String merchandiseRedeem = "//span[text()='Merchandise redeemed till date']/following-sibling::span";
     public static String namesAndDesignationOfTopEarners = "//div[@class='oS7kcv3wtvYRwoXFTwqy']/div";
 

@@ -66,7 +66,7 @@ public class HomePage extends AbstractPage {
     public HashMap<String,String> getNamesAndDesignationOfTopEarnersOfCurrentMonth(){
         HashMap<String,String> namesAndDesignation = new HashMap<>();
         List<String> listOfNamesAndDesignations = getListOfTextOfElements((HomePageSelectors.namesAndDesignationOfTopEarners));
-        for(int i=0 ;i<listOfNamesAndDesignations.size();i+=2){
+        for(int i=0 ;i<listOfNamesAndDesignations.size();i+=1){
             for(int j = i ;j<=i+1;j++){
                 namesAndDesignation.put(listOfNamesAndDesignations.get(j),listOfNamesAndDesignations.get(j+1));
             }

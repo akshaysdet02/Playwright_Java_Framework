@@ -7,6 +7,7 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import utils.PlayWrightFactory;
 
@@ -43,6 +44,7 @@ public class BaseTest extends PlayWrightFactory implements ITestListener {
         }
         extent.flush();
     }
+
 
 
     @AfterTest

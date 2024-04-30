@@ -9,7 +9,9 @@ public class Action_RewardsPage {
     V_RewardsPage v_rewardsPage;
 
     public Action_RewardsPage(Page page){
+
         rewardsPage = new RewardsPage(page);
+        v_rewardsPage = new V_RewardsPage(page);
     }
 
     public Action_RewardsPage verifyNameOfMerchandiseAreDisplayedAndPrintThem(){

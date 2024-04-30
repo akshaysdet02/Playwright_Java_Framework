@@ -17,7 +17,7 @@ public class RewardsPageSelectors {
     public static String sizeButtons = "//button[@class='MLWfBVIyjoG6xRty7GIQ ']";
     public static String selectQuantityLabel = "//div[@class = 'o0eMXJBJ7Fsj4SV6y8wi']";
     public static String increaseQuantityButton = "//div[@class = 'k618CnS0BXH3GGcLpVfk wKKfW9vtyK6cRWT69EX4']";
-    public static String decreaseQuantityButton = "//img[@class = 'eEakZxTXSZGjBbDbpO8z']";
+    public static String decreaseQuantityButton = "(//div[@class = '_pv5a4_s4Oq2WULrfnF5']/div/img)[1]";
     public static String defaultQuantity = "//div[@class = 'k618CnS0BXH3GGcLpVfk LhfJeoL93oQUyvl8eeeg']";
     public static String sizeChart = "//div[@class = 'aa_lkWZJvwybj6_Vf0dY']";
 

@@ -34,7 +34,14 @@ public abstract class AbstractPage {
     }
 
     public boolean isElementVisible(String selector) {
-        return page.waitForSelector(selector).isVisible();
+        boolean flag = false;
+        try{
+          flag = page.waitForSelector(selector).isVisible();
+        }
+        catch (Exception ae){
+            System.out.println("Element is not visible in 30 secs with selector: "+selector);
+        }
+        return flag;
     }
 
     public void clickSafe(String selector) {
